@@ -106,6 +106,64 @@
 <wire x1="21.59" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="21"/>
 <text x="12.065" y="-26.67" size="1.27" layer="21" rot="R90">&gt;NAME</text>
 </package>
+<package name="DIP20">
+<pad name="P$1" x="0" y="-7.62" drill="0.8" shape="long"/>
+<pad name="P$2" x="0" y="-10.16" drill="0.8" shape="long"/>
+<pad name="P$3" x="0" y="-12.7" drill="0.8" shape="long"/>
+<pad name="P$4" x="0" y="-15.24" drill="0.8" shape="long"/>
+<pad name="P$5" x="0" y="-17.78" drill="0.8" shape="long"/>
+<pad name="P$6" x="0" y="-20.32" drill="0.8" shape="long"/>
+<pad name="P$7" x="0" y="-22.86" drill="0.8" shape="long"/>
+<pad name="P$8" x="0" y="-25.4" drill="0.8" shape="long"/>
+<pad name="P$9" x="0" y="-27.94" drill="0.8" shape="long"/>
+<pad name="P$10" x="0" y="-30.48" drill="0.8" shape="long"/>
+<pad name="P$11" x="20.32" y="-30.48" drill="0.8" shape="long"/>
+<pad name="P$12" x="20.32" y="-27.94" drill="0.8" shape="long"/>
+<pad name="P$13" x="20.32" y="-25.4" drill="0.8" shape="long"/>
+<pad name="P$14" x="20.32" y="-22.86" drill="0.8" shape="long"/>
+<pad name="P$15" x="20.32" y="-20.32" drill="0.8" shape="long"/>
+<pad name="P$16" x="20.32" y="-17.78" drill="0.8" shape="long"/>
+<pad name="P$17" x="20.32" y="-15.24" drill="0.8" shape="long"/>
+<pad name="P$18" x="20.32" y="-12.7" drill="0.8" shape="long"/>
+<pad name="P$19" x="20.32" y="-10.16" drill="0.8" shape="long"/>
+<pad name="P$20" x="20.32" y="-7.62" drill="0.8" shape="long"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-38.1" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-38.1" x2="19.05" y2="-38.1" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-38.1" x2="19.05" y2="0" width="0.127" layer="21"/>
+<wire x1="19.05" y1="0" x2="12.7" y2="0" width="0.127" layer="21"/>
+<wire x1="12.7" y1="0" x2="7.62" y2="0" width="0.127" layer="21"/>
+<wire x1="7.62" y1="0" x2="1.27" y2="0" width="0.127" layer="21"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-2.54" x2="12.7" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-2.54" x2="12.7" y2="0" width="0.127" layer="21"/>
+<text x="10.795" y="-22.225" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="DIP18">
+<pad name="P$1" x="0" y="-7.62" drill="0.8" shape="long"/>
+<pad name="P$2" x="0" y="-10.16" drill="0.8" shape="long"/>
+<pad name="P$3" x="0" y="-12.7" drill="0.8" shape="long"/>
+<pad name="P$4" x="0" y="-15.24" drill="0.8" shape="long"/>
+<pad name="P$5" x="0" y="-17.78" drill="0.8" shape="long"/>
+<pad name="P$6" x="0" y="-20.32" drill="0.8" shape="long"/>
+<pad name="P$7" x="17.78" y="-27.94" drill="0.8" shape="long"/>
+<pad name="P$8" x="17.78" y="-25.4" drill="0.8" shape="long"/>
+<pad name="P$9" x="17.78" y="-22.86" drill="0.8" shape="long"/>
+<pad name="P$10" x="17.78" y="-20.32" drill="0.8" shape="long"/>
+<pad name="P$11" x="17.78" y="-17.78" drill="0.8" shape="long"/>
+<pad name="P$12" x="17.78" y="-15.24" drill="0.8" shape="long"/>
+<pad name="P$13" x="17.78" y="-12.7" drill="0.8" shape="long"/>
+<pad name="P$14" x="17.78" y="-10.16" drill="0.8" shape="long"/>
+<pad name="P$15" x="17.78" y="-7.62" drill="0.8" shape="long"/>
+<pad name="P$16" x="17.78" y="-5.08" drill="0.8" shape="long"/>
+<pad name="P$17" x="17.78" y="-2.54" drill="0.8" shape="long"/>
+<pad name="P$18" x="17.78" y="0" drill="0.8" shape="long"/>
+<wire x1="1.27" y1="-29.21" x2="1.27" y2="1.27" width="0.127" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="16.51" y2="1.27" width="0.127" layer="21"/>
+<wire x1="16.51" y1="1.27" x2="16.51" y2="-29.21" width="0.127" layer="21"/>
+<wire x1="16.51" y1="-29.21" x2="1.27" y2="-29.21" width="0.127" layer="21"/>
+<text x="9.525" y="-17.145" size="1.27" layer="21" rot="R90">&gt;NAME</text>
+<circle x="14.605" y="-0.635" radius="0.635" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MBED_PINOUT">
@@ -156,6 +214,62 @@
 <wire x1="22.86" y1="-50.8" x2="0" y2="-50.8" width="0.254" layer="94"/>
 <text x="0" y="-53.34" size="1.778" layer="94">&gt;NAME</text>
 <text x="0" y="-55.88" size="1.778" layer="94">MBED_PINOUT</text>
+</symbol>
+<symbol name="HUZZAH_ESP_PINOUT">
+<description>Pinout for the Huzzah ESP breakout board.</description>
+<pin name="RST" x="-5.08" y="-7.62" length="middle"/>
+<pin name="A" x="-5.08" y="-10.16" length="middle"/>
+<pin name="EN" x="-5.08" y="-12.7" length="middle"/>
+<pin name="16" x="-5.08" y="-15.24" length="middle"/>
+<pin name="14" x="-5.08" y="-17.78" length="middle"/>
+<pin name="12" x="-5.08" y="-20.32" length="middle"/>
+<pin name="13" x="-5.08" y="-22.86" length="middle"/>
+<pin name="V+" x="-5.08" y="-25.4" length="middle"/>
+<pin name="VBAT" x="-5.08" y="-27.94" length="middle"/>
+<pin name="GND" x="-5.08" y="-30.48" length="middle"/>
+<pin name="GND\" x="25.4" y="-30.48" length="middle" rot="R180"/>
+<pin name="LDO" x="25.4" y="-27.94" length="middle" rot="R180"/>
+<pin name="3V" x="25.4" y="-25.4" length="middle" rot="R180"/>
+<pin name="15" x="25.4" y="-22.86" length="middle" rot="R180"/>
+<pin name="#2" x="25.4" y="-20.32" length="middle" rot="R180"/>
+<pin name="#0" x="25.4" y="-17.78" length="middle" rot="R180"/>
+<pin name="#4" x="25.4" y="-15.24" length="middle" rot="R180"/>
+<pin name="#5" x="25.4" y="-12.7" length="middle" rot="R180"/>
+<pin name="RX" x="25.4" y="-10.16" length="middle" rot="R180"/>
+<pin name="TX" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<wire x1="0" y1="0" x2="0" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="0" y1="-38.1" x2="20.32" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-38.1" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="20.32" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-40.64" size="1.27" layer="94">&gt;NAME</text>
+<text x="0" y="-43.18" size="1.27" layer="94">HUZZAH_ESP_PINOUT</text>
+</symbol>
+<symbol name="CAP_SENSE_PINOUT">
+<description>Pinout for the MPR121 Capacitive Touch Sensor breakout board.</description>
+<pin name="3.3V" x="-5.08" y="-7.62" length="middle"/>
+<pin name="IRQ" x="-5.08" y="-10.16" length="middle"/>
+<pin name="SCL" x="-5.08" y="-12.7" length="middle"/>
+<pin name="SDA" x="-5.08" y="-15.24" length="middle"/>
+<pin name="ADD" x="-5.08" y="-17.78" length="middle"/>
+<pin name="GND" x="-5.08" y="-20.32" length="middle"/>
+<pin name="0" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="1" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="2" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="3" x="22.86" y="-20.32" length="middle" rot="R180"/>
+<pin name="4" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="5" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="6" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="7" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="8" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="9" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="10" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="11" x="22.86" y="0" length="middle" rot="R180"/>
+<wire x1="0" y1="-30.48" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="2.54" x2="17.78" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-30.48" x2="0" y2="-30.48" width="0.254" layer="94"/>
+<text x="0" y="-33.02" size="1.778" layer="94">&gt;NAME</text>
+<text x="0" y="-35.56" size="1.778" layer="94">CAP_SENSE_PINOUT</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -213,6 +327,72 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="HUZZAH_ESP_PINOUT">
+<gates>
+<gate name="G$1" symbol="HUZZAH_ESP_PINOUT" x="-10.16" y="17.78"/>
+</gates>
+<devices>
+<device name="" package="DIP20">
+<connects>
+<connect gate="G$1" pin="#0" pad="P$16"/>
+<connect gate="G$1" pin="#2" pad="P$15"/>
+<connect gate="G$1" pin="#4" pad="P$17"/>
+<connect gate="G$1" pin="#5" pad="P$18"/>
+<connect gate="G$1" pin="12" pad="P$6"/>
+<connect gate="G$1" pin="13" pad="P$7"/>
+<connect gate="G$1" pin="14" pad="P$5"/>
+<connect gate="G$1" pin="15" pad="P$14"/>
+<connect gate="G$1" pin="16" pad="P$4"/>
+<connect gate="G$1" pin="3V" pad="P$13"/>
+<connect gate="G$1" pin="A" pad="P$2"/>
+<connect gate="G$1" pin="EN" pad="P$3"/>
+<connect gate="G$1" pin="GND" pad="P$10"/>
+<connect gate="G$1" pin="GND\" pad="P$11"/>
+<connect gate="G$1" pin="LDO" pad="P$12"/>
+<connect gate="G$1" pin="RST" pad="P$1"/>
+<connect gate="G$1" pin="RX" pad="P$19"/>
+<connect gate="G$1" pin="TX" pad="P$20"/>
+<connect gate="G$1" pin="V+" pad="P$8"/>
+<connect gate="G$1" pin="VBAT" pad="P$9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_SENSE_PINOUT">
+<gates>
+<gate name="G$1" symbol="CAP_SENSE_PINOUT" x="-7.62" y="12.7"/>
+</gates>
+<devices>
+<device name="" package="DIP18">
+<connects>
+<connect gate="G$1" pin="0" pad="P$7"/>
+<connect gate="G$1" pin="1" pad="P$8"/>
+<connect gate="G$1" pin="10" pad="P$17"/>
+<connect gate="G$1" pin="11" pad="P$18"/>
+<connect gate="G$1" pin="2" pad="P$9"/>
+<connect gate="G$1" pin="3" pad="P$10"/>
+<connect gate="G$1" pin="3.3V" pad="P$1"/>
+<connect gate="G$1" pin="4" pad="P$11"/>
+<connect gate="G$1" pin="5" pad="P$12"/>
+<connect gate="G$1" pin="6" pad="P$13"/>
+<connect gate="G$1" pin="7" pad="P$14"/>
+<connect gate="G$1" pin="8" pad="P$15"/>
+<connect gate="G$1" pin="9" pad="P$16"/>
+<connect gate="G$1" pin="ADD" pad="P$5"/>
+<connect gate="G$1" pin="GND" pad="P$6"/>
+<connect gate="G$1" pin="IRQ" pad="P$2"/>
+<connect gate="G$1" pin="SCL" pad="P$3"/>
+<connect gate="G$1" pin="SDA" pad="P$4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -226,6 +406,8 @@
 </classes>
 <parts>
 <part name="U$1" library="smart_glove_breakout" deviceset="MBED_PINOUT" device=""/>
+<part name="U$2" library="smart_glove_breakout" deviceset="HUZZAH_ESP_PINOUT" device=""/>
+<part name="U$3" library="smart_glove_breakout" deviceset="CAP_SENSE_PINOUT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -233,6 +415,8 @@
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="0" y="0"/>
+<instance part="U$2" gate="G$1" x="63.5" y="-15.24"/>
+<instance part="U$3" gate="G$1" x="-58.42" y="-12.7"/>
 </instances>
 <busses>
 </busses>
